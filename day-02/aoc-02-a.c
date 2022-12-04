@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MIN(A, B) A < B ? A : B
+#define MIN(A, B) (A < B ? A : B)
 
 
 int
@@ -17,7 +17,7 @@ evaluate(char *s) {
 	wh = w * h;
 	hl = h * l;
 
-	slack = MIN(lw, (MIN(wh, hl)));
+	slack = MIN(lw, MIN(wh, hl));
 	
 	return 2 * (lw + wh + hl) + slack;
 }
