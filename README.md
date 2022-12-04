@@ -4,7 +4,7 @@ My solutions of Advent of Code 2015.<https://adventofcode.com/2015>
 
 Days completed:
 - [x] day 01
-- [ ] day 02
+- [x] day 02
 - [ ] day 03
 - [ ] day 04
 - [ ] day 05
