@@ -1,6 +1,6 @@
-# aoc-template
+# aoc-2015
 
-Template for C solving of <https://adventofcode.com>
+My solutions of Advent of Code 2015.<https://adventofcode.com/2015>
 
 Days completed: None
 
