@@ -5,11 +5,7 @@ evaluate(char *s) {
 	int parity = 0;
 
 	while (*s) {
-		if (*s == '(') {
-			parity += 1;
-		} else if (*s == ')') {
-			parity -= 1;
-		}
+		parity += (*s == '(') - (*s == ')');
 		s++;
 	}
 
